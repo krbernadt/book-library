@@ -2,7 +2,6 @@
 
 A simple and elegant React + TypeScript app to search books from Open Library and build your own personal library — with support for local storage and responsive design.
 
-![screenshot](preview.png) <!-- optional: add a screenshot later -->
 
 ---
 
@@ -46,7 +45,8 @@ A simple and elegant React + TypeScript app to search books from Open Library an
 
 ---
 
-## Folder Structure
+## Folder Structure (Simplified)
+
 src/
 ├── api/              # API call to Open Library
 ├── components/       # UI components (SearchBar, SearchResults, etc.)
