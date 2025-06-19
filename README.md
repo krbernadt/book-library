@@ -47,7 +47,7 @@ A simple and elegant React + TypeScript app to search books from Open Library an
 
 ## Folder Structure (Simplified)
 
-src/
+src/  
 ├── api/              # API call to Open Library  
 ├── components/       # UI components (SearchBar, SearchResults, etc.)  
 ├── types/            # TypeScript interfaces  
