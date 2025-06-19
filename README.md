@@ -45,7 +45,7 @@ A simple and elegant React + TypeScript app to search books from Open Library an
 
 ---
 
-## Folder Structure (Simplified)
+## 📁 Folder Structure (Simplified)
 
 src/  
 ├── api/              # API call to Open Library  
