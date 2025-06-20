@@ -2,9 +2,10 @@ import { useState } from "react";
 
 interface Props {
   onSearch: (query: string) => void;
+  onAddManual: () => void;
 }
 
-export default function SearchBar({ onSearch }: Props) {
+export default function SearchBar({ onSearch, onAddManual }: Props) {
   const [query, setQuery] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -29,6 +30,13 @@ export default function SearchBar({ onSearch }: Props) {
         className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-black hover:text-white transition"
       >
         Search
+      </button>
+      <button
+        type="button"
+        onClick={onAddManual}
+        className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-black hover:text-white"
+      >
+        +
       </button>
     </form>
   );
